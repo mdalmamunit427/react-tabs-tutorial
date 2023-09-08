@@ -1,4 +1,5 @@
 import React from "react";
+import aboutImg from "../assets/about.jpg"
 
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
@@ -7,7 +8,7 @@ const About = () => {
     <div className="about">
       <div className="about-img">
         <div className="thumbnail">
-          <img src="src/assets/about.jpg" alt="" />
+          <img src={aboutImg} alt="" />
         </div>
       </div>
       <div className="about-content">
